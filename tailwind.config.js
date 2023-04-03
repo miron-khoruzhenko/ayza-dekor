@@ -9,6 +9,9 @@ module.exports = {
         // 'lg': {'min': '1024px', 'max': '1279px'},
         // 'xl': {'min': '1280px'},
       },
+      backgroundImage : {
+        'white-shadow' : 'linear-gradient(to bottom, rgba(255,255,255,0), rgba(255, 255, 255, 1) 95%)'
+      },
     },
   },
   plugins: [],

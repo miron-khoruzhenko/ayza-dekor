@@ -1,5 +1,6 @@
 import React from 'react';
-import {FaBars} from 'react-icons/fa'
+import {FaBars} from 'react-icons/fa';
+import { animateScroll as scroll } from 'react-scroll';
 import {
         Nav,
         NavbarContainer,
@@ -13,32 +14,71 @@ import {
     } from './NavbarElements';
 import logo from '../../images/logo.png'
 const Navbar = ({ toggle }) => {
-  return (
+  
+
+const toggleHome = () => {
+    scroll.scrollToTop();
+}
+  
+  
+    return (
     <>
       <Nav>
         <NavbarContainer>
-            <NavLogo to='/'>
-                <img src= {logo} alt='logo'/>
+            <NavLogo to='/' onClick={toggleHome}>
+                <img src={logo} alt='logo'/>
             </NavLogo>
             <MobileIcon onClick={toggle}>
                 <FaBars />
             </MobileIcon>
             <NavMenu>
                 <NavItem>
-                    <NavLinks to="about">About Us</NavLinks>
+                    <NavLinks 
+                    to="about" 
+                    smooth="true"
+                    duration={500}
+                    spy={true}
+                    exact='true' 
+                    offset={-80}
+                    // activeClass='true'
+                    >About Us</NavLinks>
                 </NavItem>
                 <NavItem>
-                    <NavLinks to="flatpack">Flatpack</NavLinks>
+                    <NavLinks to="flatpack" 
+                      smooth="true"
+                      duration={500}
+                      spy={true}
+                      exact='true' offset={-80}
+                      // activeClass='true'
+                      >Flatpack</NavLinks>
                 </NavItem>
                 <NavItem>
-                    <NavLinks to="categories">Categories</NavLinks>
+                    <NavLinks to="categories"
+                      smooth="true"
+                      duration={500}
+                      spy={true}
+                      exact='true' offset={-80}
+                      // activeClass='true'
+                      >Categories</NavLinks>
                 </NavItem>
                 <NavItem>
-                    <NavLinks to="contact">Contact</NavLinks>
+                    <NavLinks to="contact"
+                      smooth="true"
+                      duration={500}
+                      spy={true}
+                      exact='true' offset={-80}
+                      // activeClass='true'
+                      >Contact</NavLinks>
                 </NavItem>
             </NavMenu>
             <NavBtn>
-                <NavBtnLink to="/QualityStandarts">Quality Standarts</NavBtnLink>
+                <NavBtnLink to="/QualityStandarts"
+                  smooth="true"
+                  duration={500}
+                  spy="true"
+                  exact='true' offset={-80}
+                  // activeClass='true'
+                  >Quality Standarts</NavBtnLink>
             </NavBtn>
         </NavbarContainer>
       </Nav>
