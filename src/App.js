@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes , Route } from 'react-router-dom';
 import Home from './pages';
 import QualityStandartsPage from './pages/Categories';
 
-
+// Hello there
 
 function App() {
   return (
