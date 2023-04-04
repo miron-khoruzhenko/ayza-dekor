@@ -19,7 +19,7 @@ const Home = () => {
 
 
   return (
-    <div className='overflow-x-hidden'>
+    <div className=''>
       <SideBar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
