@@ -1,0 +1,99 @@
+1680674825091	geckodriver	INFO	Listening on 127.0.0.1:37065
+1680674825173	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43113" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilea1Qorn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=1.32145) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680674826871	Marionette	INFO	Marionette enabled
+1680674826900	Marionette	INFO	Listening on port 42359
+Read port: 42359
+WebDriver BiDi listening on ws://127.0.0.1:43113
+1680674827613	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea1Qorn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43113/devtools/browser/9c0a272a-8afd-4280-89bb-3ff21e14b719
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://online.yildiz.edu.tr."
+1680674888254	Marionette	INFO	Stopped listening on port 42359
+1680674889047	geckodriver	INFO	Listening on 127.0.0.1:49347
+1680674889639	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60815" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4wEw0Y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=1.17576) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680674890983	Marionette	INFO	Marionette enabled
+1680674890989	Marionette	INFO	Listening on port 35081
+Read port: 35081
+WebDriver BiDi listening on ws://127.0.0.1:60815
+1680674891190	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4wEw0Y/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60815/devtools/browser/c6ff5c9f-d817-4ca9-bd8e-d704d5f12472
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://online.yildiz.edu.tr."
+1680674914194	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1680674915179	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://st2.zoom.us/static/6.3.12207/js/app/top_nav.min.js, line 1: TypeError: i is null
+JavaScript error: https://st2.zoom.us/static/6.3.12207/js/app/webclient/preview/media-previewer.min.js, line 1: TypeError: 'camera' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName.
+JavaScript error: https://st2.zoom.us/static/6.3.12207/js/app/webclient/preview/media-previewer.min.js, line 1: TypeError: 'microphone' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName.
+JavaScript warning: https://st1.zoom.us/web_client/fqoqref/js/av-sdk/js_media.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st1.zoom.us/web_client/fqoqref/js/av-sdk/js_media.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st1.zoom.us/web_client/fqoqref/js/av-sdk/js_media.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st1.zoom.us/web_client/fqoqref/js/av-sdk/js_media.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st1.zoom.us/web_client/fqoqref/js/av-sdk/js_media.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1680684600006	Marionette	INFO	Stopped listening on port 35081
+JavaScript warning: https://st1.zoom.us/web_client/fqoqref/js/av-sdk/js_audio_worklet_simd.min.js, line 1: Script terminated by timeout at:
+process@https://st1.zoom.us/web_client/fqoqref/js/av-sdk/js_audio_worklet_simd.min.js:1:18072
+
+1680688800004	geckodriver	INFO	Listening on 127.0.0.1:57489
+1680688800092	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45199" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXAN7M0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=1.17426) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680688801424	Marionette	INFO	Marionette enabled
+1680688801430	Marionette	INFO	Listening on port 38101
+Read port: 38101
+WebDriver BiDi listening on ws://127.0.0.1:45199
+1680688801647	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXAN7M0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45199/devtools/browser/4a29f0db-3952-43d5-a649-c6f386a84521
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://online.yildiz.edu.tr."
+1680688860403	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1680688861323	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://st2.zoom.us/static/6.3.12207/js/app/top_nav.min.js, line 1: TypeError: i is null
+JavaScript error: https://st2.zoom.us/static/6.3.12207/js/app/webclient/preview/media-previewer.min.js, line 1: TypeError: 'camera' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName.
+JavaScript error: https://st2.zoom.us/static/6.3.12207/js/app/webclient/preview/media-previewer.min.js, line 1: TypeError: 'microphone' (value of 'name' member of PermissionDescriptor) is not a valid value for enumeration PermissionName.
+JavaScript warning: https://st1.zoom.us/web_client/fqoqref/js/av-sdk/js_media.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st1.zoom.us/web_client/fqoqref/js/av-sdk/js_media.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st1.zoom.us/web_client/fqoqref/js/av-sdk/js_media.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st1.zoom.us/web_client/fqoqref/js/av-sdk/js_media.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://st1.zoom.us/web_client/fqoqref/js/av-sdk/js_media.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
